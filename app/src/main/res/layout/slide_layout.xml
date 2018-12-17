@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="40dp">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="120dp"
+        android:contentDescription="@string/image_secure"
+        app:srcCompat="@drawable/perimeter_icon" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="35dp"
+        android:contentDescription="@string/txt_heading"
+        android:fontFamily="@font/faktprosemibold"
+        android:text="@string/lbl_heading"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_heading"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/txt_lorem"
+        android:fontFamily="@font/faktpromedium"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp"
+        android:paddingRight="35dp"
+        android:paddingBottom="30dp"
+        android:text="@string/txt_lorem"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlackLight"
+        android:textSize="24sp"
+        app:lineHeight="33dp" />
+</RelativeLayout>
